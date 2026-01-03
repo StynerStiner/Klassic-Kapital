@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="KLASSICKAPITAL">
+    <meta name="description" content="KLASSICKAPITAL - Privacy Policy">
+    <!-- ======== Page title ============ -->
+    <title>Privacy Policy - KLASSICKAPITAL</title>
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="assets/img/favicon.svg">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--<< All Min Css >>-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!--<< Color.css >>-->
+    <link rel="stylesheet" href="assets/css/color.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="body-bg">
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner">
+            </div>
+            <div class="txt-loading">
+                <span data-text-preloader="K" class="letters-loading">
+                    K
+                </span>
+                <span data-text-preloader="L" class="letters-loading">
+                    L
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="I" class="letters-loading">
+                    I
+                </span>
+                <span data-text-preloader="C" class="letters-loading">
+                    C
+                </span>
+                <span data-text-preloader=" " class="letters-loading">
+                    &nbsp;
+                </span>
+                <span data-text-preloader="K" class="letters-loading">
+                    K
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="P" class="letters-loading">
+                    P
+                </span>
+                <span data-text-preloader="I" class="letters-loading">
+                    I
+                </span>
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="L" class="letters-loading">
+                    L
+                </span>
+            </div>
+            <p class="text-center">Loading</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<< Mouse Cursor Start >>-->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- Back To Top start -->
+    <button id="back-top" class="back-to-top">
+        <i class="fa-regular fa-arrow-up"></i>
+    </button>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        KLASSICKAPITAL SYSTEM - Professional trading tool for TradingView
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:support@klassickapital.com">support@klassickapital.com</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+2347032285613">+234 703 228 5613</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            <a href="checkout.html" class="theme-btn text-center">
+                                Get Started
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section Start -->
+    <header id="header-sticky" class="header-1">
+        <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <div class="header-left">
+                        <div class="logo">
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="pricing.html">Pricing</a>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="faq.html">
+                                                Resources
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="faq.html">FAQ</a></li>
+                                                <li><a href="terms.html">Terms & Conditions</a></li>
+                                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                                <li><a href="disclaimer.html">Disclaimer</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <a href="https://discord.gg/klassickapital" target="_blank" class="join-text me-3">
+                            <img src="assets/img/discord.svg" alt="discord"
+                                style="width: 20px; height: 20px; margin-right: 5px;"> Join Discord
+                        </a>
+                        <a href="checkout.html" class="join-text">
+                            <i class="fa-solid fa-cart-shopping" style="color: #EEFB52;"></i> Get System
+                        </a>
+                        <a href="#0" class="search-trigger search-icon"><i
+                                class="fa-regular fa-magnifying-glass"></i></a>
+                        <div class="header__hamburger d-xl-block my-auto">
+                            <div class="sidebar__toggle">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb Section Start -->
+    <div class="breadcrumb-wrapper section-padding bg-cover"
+        style="background-image: url('assets/img/breadcrumb-1.jpg');">
+        <div class="container">
+            <div class="page-heading">
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Privacy Policy</h1>
+                <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li>
+                        Privacy Policy
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Section Start -->
+    <section class="service-details-section fix section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="service-details-wrapper">
+                        <div class="service-details-content">
+                            <p class="mb-3"><strong>Last updated:</strong> January 2026</p>
+                            <p class="mb-4">At KLASSICKAPITAL, we are committed to protecting your privacy and ensuring
+                                the security of your personal information. This Privacy Policy explains how we collect,
+                                use, and safeguard your data when you use our AI-powered trading tools, indicators,
+                                signals, and alerts platform.</p>
+
+                            <h3 class="mt-5 mb-3">1. Information We Collect</h3>
+                            <p class="mb-3">We collect information that you provide directly to us when using our
+                                services:</p>
+
+                            <h5 class="mt-4 mb-3">Personal Information</h5>
+                            <ul class="list-items mb-4">
+                                <li>Name and contact information (email address, phone number)</li>
+                                <li>Account credentials and login information</li>
+                                <li>Payment and billing information (processed securely through third-party payment
+                                    processors)</li>
+                                <li>Referral codes and referral program participation data</li>
+                            </ul>
+
+                            <h5 class="mt-4 mb-3">Usage Information</h5>
+                            <ul class="list-items mb-4">
+                                <li>Trading preferences and system configuration settings</li>
+                                <li>Platform usage data and interaction with our tools</li>
+                                <li>Support communications via WhatsApp, Telegram, and email</li>
+                                <li>Technical data including IP address, browser type, and device information</li>
+                            </ul>
+
+                            <h3 class="mt-5 mb-3">2. How We Use Your Information</h3>
+                            <p class="mb-3">We use the collected information for the following purposes:</p>
+                            <ul class="list-items mb-4">
+                                <li><strong>Service Delivery:</strong> To provide access to the KLASSICKAPITAL SYSTEM,
+                                    including real-time trade execution, signals, alerts, and AI-powered trading tools
+                                </li>
+                                <li><strong>Account Management:</strong> To create and manage your account, process your
+                                    one-time payment of $300, and deliver system access</li>
+                                <li><strong>Customer Support:</strong> To provide setup assistance and technical support
+                                    through our support channels</li>
+                                <li><strong>Referral Program:</strong> To process and track referrals and distribute
+                                    referral bonuses</li>
+                                <li><strong>Communication:</strong> To send you important updates, system notifications,
+                                    and educational content</li>
+                                <li><strong>Improvement:</strong> To enhance our AI algorithms, trading tools, and
+                                    overall user experience</li>
+                                <li><strong>Security:</strong> To protect against unauthorized access and ensure
+                                    platform integrity</li>
+                            </ul>
+
+                            <h3 class="mt-5 mb-3">3. Data Sharing and Third Parties</h3>
+                            <p class="mb-3">We share your information only in the following circumstances:</p>
+
+                            <h5 class="mt-4 mb-3">Service Providers</h5>
+                            <ul class="list-items mb-4">
+                                <li><strong>Payment Processors:</strong> PayPal, Paystack, Flutterwave, and
+                                    cryptocurrency payment providers for secure transaction processing</li>
+                                <li><strong>TradingView:</strong> Our platform integrates with TradingView for chart
+                                    analysis and trade execution</li>
+                                <li><strong>Communication Platforms:</strong> WhatsApp and Telegram for customer support
+                                </li>
+                                <li><strong>Email Service Providers:</strong> For sending account updates and
+                                    newsletters</li>
+                            </ul>
+
+                            <h5 class="mt-4 mb-3">Legal Requirements</h5>
+                            <p class="mb-4">We may disclose your information if required by law, court order, or
+                                government regulation, or to protect our rights and the safety of our users.</p>
+
+                            <h3 class="mt-5 mb-3">4. TradingView Integration</h3>
+                            <p class="mb-4">
+                                Our system integrates seamlessly with TradingView for mobile and desktop trading. When
+                                you use our tools on TradingView, certain data may be shared with TradingView in
+                                accordance with their privacy policy. We recommend reviewing TradingView's privacy
+                                policy for more information about how they handle your data.
+                            </p>
+
+                            <h3 class="mt-5 mb-3">5. Data Security</h3>
+                            <p class="mb-4">
+                                We implement industry-standard security measures to protect your personal information:
+                            </p>
+                            <ul class="list-items mb-4">
+                                <li>SSL encryption for all data transmission</li>
+                                <li>Secure payment processing through trusted third-party providers</li>
+                                <li>Regular security audits and system monitoring</li>
+                                <li>Access controls and authentication measures</li>
+                                <li>Encrypted storage of sensitive information</li>
+                            </ul>
+                            <p class="mb-4">
+                                However, no method of transmission over the Internet is 100% secure. While we strive to
+                                protect your data, we cannot guarantee absolute security.
+                            </p>
+
+                            <h3 class="mt-5 mb-3">6. Cookies and Tracking Technologies</h3>
+                            <p class="mb-4">
+                                We use cookies and similar tracking technologies to enhance your experience on our
+                                platform:
+                            </p>
+                            <ul class="list-items mb-4">
+                                <li><strong>Essential Cookies:</strong> Required for platform functionality and security
+                                </li>
+                                <li><strong>Analytics Cookies:</strong> Help us understand how users interact with our
+                                    platform</li>
+                                <li><strong>Preference Cookies:</strong> Remember your settings and trading preferences
+                                </li>
+                            </ul>
+                            <p class="mb-4">You can control cookie settings through your browser, but disabling certain
+                                cookies may limit platform functionality.</p>
+
+                            <h3 class="mt-5 mb-3">7. Your Rights and Choices</h3>
+                            <p class="mb-3">You have the following rights regarding your personal information:</p>
+                            <ul class="list-items mb-4">
+                                <li><strong>Access:</strong> Request a copy of the personal data we hold about you</li>
+                                <li><strong>Correction:</strong> Update or correct inaccurate information</li>
+                                <li><strong>Deletion:</strong> Request deletion of your personal data (subject to legal
+                                    obligations)</li>
+                                <li><strong>Opt-Out:</strong> Unsubscribe from marketing communications at any time</li>
+                                <li><strong>Data Portability:</strong> Request your data in a portable format</li>
+                            </ul>
+                            <p class="mb-4">To exercise these rights, contact us at <a
+                                    href="mailto:support@klassickapital.com">support@klassickapital.com</a></p>
+
+                            <h3 class="mt-5 mb-3">8. Data Retention</h3>
+                            <p class="mb-4">
+                                We retain your personal information for as long as necessary to provide our services and
+                                comply with legal obligations. Account information is retained while your account is
+                                active and for a reasonable period thereafter for legal and business purposes.
+                            </p>
+
+                            <h3 class="mt-5 mb-3">9. Children's Privacy</h3>
+                            <p class="mb-4">
+                                Our services are not intended for individuals under the age of 18. We do not knowingly
+                                collect personal information from children. If you believe we have inadvertently
+                                collected information from a minor, please contact us immediately.
+                            </p>
+
+                            <h3 class="mt-5 mb-3">10. International Users</h3>
+                            <p class="mb-4">
+                                KLASSICKAPITAL serves a global community of over 66,000 traders. If you access our
+                                services from outside your country of residence, please note that your information may
+                                be transferred to and processed in different jurisdictions. By using our services, you
+                                consent to such transfers.
+                            </p>
+
+                            <h3 class="mt-5 mb-3">11. Educational Purpose</h3>
+                            <p class="mb-4">
+                                As stated in our Disclaimer, all content and tools provided by KLASSICKAPITAL are for
+                                educational purposes only. We do not collect or use your data to provide financial
+                                advice. Your trading decisions and their consequences remain your sole responsibility.
+                            </p>
+
+                            <h3 class="mt-5 mb-3">12. Changes to This Privacy Policy</h3>
+                            <p class="mb-4">
+                                We may update this Privacy Policy from time to time to reflect changes in our practices
+                                or legal requirements. We will notify you of any material changes by posting the updated
+                                policy on our website and updating the "Last updated" date. Continued use of our
+                                services after changes constitutes acceptance of the updated policy.
+                            </p>
+
+                            <h3 class="mt-5 mb-3">13. Contact Us</h3>
+                            <p class="mb-2">If you have questions or concerns about this Privacy Policy or our data
+                                practices, please contact us:</p>
+                            <ul class="list-items mb-4">
+                                <li><strong>Email:</strong> <a
+                                        href="mailto:support@klassickapital.com">support@klassickapital.com</a></li>
+                                <li><strong>Phone:</strong> <a href="tel:+2347032285613">+234 703 228 5613</a></li>
+                                <li><strong>Support:</strong> Available via WhatsApp and Telegram</li>
+                            </ul>
+
+                            <div class="mt-5 pt-4"
+                                style="background: rgba(255,255,255,0.03); border-left: 4px solid var(--theme-color); border-radius: 8px; padding: 20px;">
+                                <h5 class="mb-3">Your Privacy Matters</h5>
+                                <p class="mb-0">
+                                    At KLASSICKAPITAL, we are committed to transparency and protecting your privacy. We
+                                    only use your information to provide you with the best trading tools and support
+                                    possible. If you have any concerns about how we handle your data, please don't
+                                    hesitate to reach out to our support team.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-top">
+                                <p class="text-muted mb-0"><small><strong>Last Updated:</strong> January 2026</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer class="footer-section footer-bg">
+        <div class="container">
+            <div class="footer-widgets-wrapper">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="single-footer-widget">
+                            <div class="footer-content">
+                                <h3 class="mb-3">
+                                    Subscribe our
+                                    newsletter
+                                </h3>
+                                <p>Join us today, get update everyday</p>
+                                <div class="footer-input">
+                                    <input type="email" id="email" placeholder="Enter email...">
+                                    <button class="newsletter-btn" type="submit">
+                                        <img src="assets/img/circle-check.png" alt="img">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <ul class="list-items">
+                                <li>
+                                    <a href="about.html">
+                                        About us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="pricing.html">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="checkout.html">
+                                        Checkout
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Legal & Contact</h3>
+                            </div>
+                            <ul class="list-items">
+                                <li>
+                                    <a href="terms.html">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="privacy.html">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="disclaimer.html">
+                                        Disclaimer
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa-solid fa-envelope me-2"></i>
+                                    <a href="mailto:support@klassickapital.com">
+                                        support@klassickapital.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone me-2"></i>
+                                    <a href="tel:+2347032285613">
+                                        +234 703 228 5613
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-3 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Instagram</h3>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6 col-sm-4 col-4">
+                                    <div class="footer-thumb">
+                                        <img src="assets/img/footer/gallery-1.jpg" alt="img">
+                                        <a href="index.html" class="icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-4 col-4">
+                                    <div class="footer-thumb">
+                                        <img src="assets/img/footer/gallery-2.jpg" alt="img">
+                                        <a href="index.html" class="icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-4 col-4">
+                                    <div class="footer-thumb">
+                                        <img src="assets/img/footer/gallery-3.jpg" alt="img">
+                                        <a href="index.html" class="icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-4 col-4">
+                                    <div class="footer-thumb">
+                                        <img src="assets/img/footer/gallery-4.jpg" alt="img">
+                                        <a href="index.html" class="icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-wrapper">
+                    <div class="logo-img wow fadeInUp" data-wow-delay=".3s">
+                        <a href="index.html">
+                            <img src="assets/img/logo/white-logo.svg" alt="img">
+                        </a>
+                    </div>
+                    <p class="wow fadeInUp" data-wow-delay=".5s">KLASSICKAPITAL © 2025. All Rights Reserved.</p>
+                    <div class="social-icon wow fadeInUp" data-wow-delay=".7s">
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--<< All JS Plugins >>-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

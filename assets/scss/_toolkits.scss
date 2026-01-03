@@ -1,0 +1,93 @@
+// Advanced Toolkits Section
+.advanced-toolkits-section {
+    background: $bg-color;
+    position: relative;
+
+    .toolkit-content {
+        h6 {
+            color: $theme-color;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+
+            img {
+                margin-right: 10px;
+            }
+        }
+
+        h2 {
+            font-size: 48px;
+            line-height: 1.2;
+            margin-bottom: 25px;
+            color: $header-color;
+
+            @media (max-width: 991px) {
+                font-size: 36px;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 28px;
+            }
+
+            span {
+                color: $white;
+
+                b {
+                    color: $theme-color;
+                }
+            }
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: $text-color;
+            margin-bottom: 0;
+        }
+
+        .theme-btn {
+            margin-top: 30px;
+        }
+    }
+
+    .toolkit-image {
+        .toolkit-box {
+            background: linear-gradient(135deg, rgba(31, 31, 41, 0.95) 0%, rgba(20, 20, 28, 0.98) 100%);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 200px;
+                height: 200px;
+                background: linear-gradient(135deg, $theme-color 0%, transparent 70%);
+                opacity: 0.1;
+                border-radius: 0 20px 0 0;
+            }
+
+            img,
+            video {
+                width: 100%;
+                height: auto;
+                border-radius: 12px;
+                position: relative;
+                z-index: 1;
+            }
+
+            video {
+                display: block;
+            }
+        }
+
+        @media (max-width: 991px) {
+            margin-top: 50px;
+        }
+    }
+}

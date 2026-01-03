@@ -1,0 +1,18 @@
+{
+    "name": "klassic-kapital",
+    "version": "2.0.0",
+    "description": "KLASSICKAPITAL - Advanced Trading Platform by StynerDev",
+    "scripts": {
+        "start": "npx http-server -p 3000 -o",
+        "dev": "npx http-server -p 3000"
+    },
+    "keywords": [
+        "trading",
+        "forex",
+        "mt5",
+        "automated-trading",
+        "signals"
+    ],
+    "author": "StynerDev (https://www.styner.dev/)",
+    "license": "Proprietary"
+}

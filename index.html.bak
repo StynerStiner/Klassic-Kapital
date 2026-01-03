@@ -1,0 +1,1821 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="KLASSICKAPITAL">
+    <meta name="description" content="KLASSICKAPITAL - Advanced AI trading bots, automated trading strategies, and real-time signals for cryptocurrency, forex, and stock markets. Join 66,000+ traders worldwide.">
+    <!-- ======== Page title ============ -->
+    <title>KLASSICKAPITAL - AI-Powered Trading Bots & Automated Trading Platform</title>
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="assets/img/favicon.svg">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--<< All Min Css >>-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!--<< Color.css >>-->
+    <link rel="stylesheet" href="assets/css/color.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="body-bg">
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner">
+            </div>
+            <div class="txt-loading">
+                <span data-text-preloader="K" class="letters-loading">
+                    K
+                </span>
+                <span data-text-preloader="L" class="letters-loading">
+                    L
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="I" class="letters-loading">
+                    I
+                </span>
+                <span data-text-preloader="C" class="letters-loading">
+                    C
+                </span>
+                <span data-text-preloader=" " class="letters-loading">
+                    &nbsp;
+                </span>
+                <span data-text-preloader="K" class="letters-loading">
+                    K
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="P" class="letters-loading">
+                    P
+                </span>
+                <span data-text-preloader="I" class="letters-loading">
+                    I
+                </span>
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="L" class="letters-loading">
+                    L
+                </span>
+            </div>
+            <p class="text-center">Loading</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<< Mouse Cursor Start >>-->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- Back To Top start -->
+    <button id="back-top" class="back-to-top">
+        <i class="fa-regular fa-arrow-up"></i>
+    </button>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        Unlock powerful trading AI bots, Indicators, Signals, and Alerts trusted by 66,000+ traders
+                        globally. Join our community and automate your path to trading success.
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Global Trading Community</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:support@klassickapital.com"><span
+                                            class="mailto:support@klassickapital.com">support@klassickapital.com</span></a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">24/7 Support Available</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+2347032285613">+234 703 228 5613</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            <a href="checkout.html" class="theme-btn text-center">
+                                Get System Now
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section Start -->
+    <header id="header-sticky" class="header-1">
+        <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <div class="header-left">
+                        <div class="logo">
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="pricing.html">Pricing</a>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="faq.html">
+                                                Resources
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="faq.html">FAQ</a></li>
+                                                <li><a href="terms.html">Terms & Conditions</a></li>
+                                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                                <li><a href="disclaimer.html">Disclaimer</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <a href="https://discord.gg/klassickapital" target="_blank" class="join-text me-3">
+                            <img src="assets/img/discord.svg" alt="discord"
+                                style="width: 20px; height: 20px; margin-right: 5px;"> Join Discord
+                        </a>
+                        <a href="checkout.html" class="join-text">
+                            <i class="fa-solid fa-cart-shopping" style="color: #EEFB52;"></i> Get System
+                        </a>
+                        <a href="#0" class="search-trigger search-icon"><i
+                                class="fa-regular fa-magnifying-glass"></i></a>
+                        <div class="header__hamburger d-xl-block my-auto">
+                            <div class="sidebar__toggle">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Area Start -->
+    <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fas fa-times search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Search...">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section Start -->
+    <section class="hero-secton hero-1 bg-cover" style="background-image: url('assets/img/hero/hero-bg-3.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-content">
+                        <div class="color-bg">
+                            <img src="assets/img/hero/color-bg.png" alt="img">
+                        </div>
+                        <p class="wow fadeInUp">Unlock powerful trading AI bots, Indicators, Signals, and Alerts used by
+                            66,000+ people globally.</p>
+                        <h1 class="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                            Automate Your <img src="assets/img/hero/radius-img.png" alt="img">
+                            <b>Trades</b> <span class="text-2">& Maximize Profits with AI</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image img-custom-anim-left bg-cover"
+            style="background-image: url('assets/img/hero/hero-1.png');">
+        </div>
+    </section>
+
+    <!-- Advanced Toolkits Section Start -->
+    <section class="advanced-toolkits-section section-padding fix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="toolkit-content">
+                        <h6 class="wow fadeInUp">
+                            <img src="assets/img/star.png" alt="img"> Advanced Toolkits
+                        </h6>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                            Next-Generation <br>
+                            <span>Trading <b>Solutions</b></span>
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".5s">
+                            Our revolutionary algorithms, designed for both automated and manual trading, empower
+                            investors of all levels—from beginners to seasoned experts—to thrive in any financial
+                            market. Trusted by a community of over 66,000 traders and enhanced by proven AI toolkits, we
+                            provide everything you need to achieve lasting success as an investor.
+                        </p>
+                        <a href="checkout.html" class="theme-btn mt-4 wow fadeInUp" data-wow-delay=".7s">
+                            Get Started Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="toolkit-image wow fadeInRight" data-wow-delay=".5s">
+                        <div class="toolkit-box">
+                            <img src="assets/img/about/01.jpg" alt="Trading Solutions">
+                            <!-- You can replace the image above with a video by using this instead:
+                            <video autoplay loop muted playsinline>
+                                <source src="assets/video/trading-demo.mp4" type="video/mp4">
+                            </video>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About  Section Start -->
+    <section class="about-section section-padding section-bg fix">
+        <div class="bg-shape">
+            <img src="assets/img/about/bg-shape.png" alt="shape-img">
+        </div>
+        <div class="color-bg">
+            <img src="assets/img/about/color-bg-shape.png" alt="img">
+        </div>
+        <div class="color-bg-2">
+            <img src="assets/img/about/color-bg-shape-2.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="section-title ml-200">
+                <h6 class="wow fadeInUp">
+                    <img src="assets/img/star.png" alt="img"> Who we are
+                </h6>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                    MT5 Trading Bot <br>
+                    <span>& our <b>automated</b> trading solutions</span>
+                </h2>
+            </div>
+            <div class="about-wrapper mt-4 mt-md-0">
+                <ul class="nav">
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".3s">
+                        <a href="#Mission" data-bs-toggle="tab" class="nav-link">
+                            Our Mission
+                        </a>
+                    </li>
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".5s">
+                        <a href="#Vision" data-bs-toggle="tab" class="nav-link active">
+                            Our Vision
+                        </a>
+                    </li>
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".5s">
+                        <a href="#Feature" data-bs-toggle="tab" class="nav-link">
+                            Key Feature
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="Mission" class="tab-pane fade">
+                        <div class="about-items">
+                            <div class="about-content">
+                                <p>
+                                    Our mission is to revolutionize forex trading through advanced MT5 automated trading
+                                    bots. We empower traders with intelligent solutions that execute trades 24/7,
+                                    maximize profits, and minimize risks in the dynamic forex market.
+                                </p>
+                                <ul class="list-items">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>24/7 Automated Trading</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>Advanced MT5 Integration</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>Proven Trading Strategies</span>
+                                    </li>
+                                </ul>
+                                <a href="about.html" class="theme-btn">explore now <i
+                                        class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                            </div>
+                            <div class="about-image">
+                                <img src="assets/img/about/01.jpg" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Vision" class="tab-pane fade show active">
+                        <div class="about-items">
+                            <div class="about-content">
+                                <p class="wow fadeInUp" data-wow-delay=".3s">
+                                    Experience the future of forex trading with our MT5 Trading Bot. Powered by AI and
+                                    advanced algorithms, our bot executes high-frequency trades, analyzes market trends
+                                    in real-time, and adapts to changing market conditions to maximize your trading
+                                    profits.
+                                </p>
+                                <ul class="list-items wow fadeInUp" data-wow-delay=".5s">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>Smart Risk Management</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>Automated AI Solutions</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>Bot Brains, Business Boosters</span>
+                                    </li>
+                                </ul>
+                                <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".3s">explore now <i
+                                        class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                            </div>
+                            <div class="about-image wow fadeInUp" data-wow-delay=".3s">
+                                <img src="assets/img/about/01.jpg" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Feature" class="tab-pane fade">
+                        <div class="about-items">
+                            <div class="about-content">
+                                <p>
+                                    Our MT5 Trading Bot features cutting-edge technology including advanced technical
+                                    indicators, multi-timeframe analysis, stop-loss and take-profit automation, and
+                                    customizable trading parameters tailored to your risk tolerance and trading goals.
+                                </p>
+                                <ul class="list-items">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>Real-World Transformations</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>Automated AI Solutions</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14"
+                                            viewBox="0 0 22 14" fill="none">
+                                            <path
+                                                d="M11.3909 14C11.0558 14 10.8325 13.8667 10.6091 13.6L5.91878 8C5.47208 7.46667 5.47208 6.66667 5.91878 6.13333C6.36548 5.6 7.03553 5.6 7.48223 6.13333L11.3909 10.8L20.1015 0.4C20.5482 -0.133333 21.2183 -0.133333 21.665 0.4C22.1117 0.933333 22.1117 1.73333 21.665 2.26667L12.1726 13.6C12.0609 13.8667 11.7259 14 11.3909 14Z"
+                                                fill="#EFFB53" />
+                                            <path
+                                                d="M5.80711 14C5.47208 14 5.24873 13.8667 5.02538 13.6L0.335025 8C-0.111675 7.46667 -0.111675 6.66667 0.335025 6.13333C0.781726 5.6 1.45178 5.6 1.89848 6.13333L6.58883 11.7333C7.03553 12.2667 7.03553 13.0667 6.58883 13.6C6.47716 13.8667 6.14213 14 5.80711 14ZM11.7259 7.06667C11.3909 7.06667 11.1675 6.93333 10.9442 6.66667C10.4975 6.13333 10.4975 5.33333 10.9442 4.8L14.5178 0.4C14.9645 -0.133333 15.6345 -0.133333 16.0812 0.4C16.5279 0.933333 16.5279 1.73333 16.0812 2.26667L12.5076 6.66667C12.2843 6.93333 12.0609 7.06667 11.7259 7.06667Z"
+                                                fill="#EFFB53" />
+                                        </svg>
+
+                                        <span>Bot Brains, Business Boosters</span>
+                                    </li>
+                                </ul>
+                                <a href="about.html" class="theme-btn">explore now <i
+                                        class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                            </div>
+                            <div class="about-image">
+                                <img src="assets/img/about/01.jpg" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="counter-section section-padding pb-0">
+            <div class="container">
+                <div class="counter-wrapper">
+                    <div class="counter-items wow fadeInUp" data-wow-delay=".3s">
+                        <div class="icon">
+                            <img src="assets/img/icon/01.svg" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2><span class="count">500</span>+</h2>
+                            <p>Active Trading Bots</p>
+                        </div>
+                    </div>
+                    <div class="counter-items wow fadeInUp" data-wow-delay=".5s">
+                        <div class="icon">
+                            <img src="assets/img/icon/01.svg" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2><span class="count">1200</span>+</h2>
+                            <p>Happy Traders</p>
+                        </div>
+                    </div>
+                    <div class="counter-items wow fadeInUp" data-wow-delay=".7s">
+                        <div class="icon">
+                            <img src="assets/img/icon/01.svg" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2><span class="count">50</span>K+</h2>
+                            <p>Successful Trades</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Master Suite Section Start -->
+    <section class="advanced-toolkits-section master-suite-section section-padding section-bg fix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="toolkit-content">
+                        <h6 class="wow fadeInUp">
+                            <img src="assets/img/star.png" alt="img"> Master Suite
+                        </h6>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                            Loaded with <br>
+                            <span>Powerful <b>Insights</b></span>
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".5s">
+                            Effortlessly identify high-probability setups while avoiding high-risk trades. Get
+                            professional-grade alerts that integrate seamlessly with our toolkits for precision and
+                            confidence. Filter out the noise and uncover trade opportunities across forex, stocks, and
+                            other markets. Our advanced algorithms analyze market conditions in real-time, keeping you
+                            ahead of trends, detecting key reversals, and maximizing profits with minimal effort. Say
+                            goodbye to guesswork.
+                        </p>
+                        <a href="checkout.html" class="theme-btn mt-4 wow fadeInUp" data-wow-delay=".7s">
+                            Explore Features <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="toolkit-image wow fadeInLeft" data-wow-delay=".5s">
+                        <div class="toolkit-box">
+                            <img src="assets/img/about/02.jpg" alt="Master Suite Insights">
+                            <!-- You can replace the image above with a video by using this instead:
+                            <video autoplay loop muted playsinline>
+                                <source src="assets/video/insights-demo.mp4" type="video/mp4">
+                            </video>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expert Engineering Section Start -->
+    <section class="advanced-toolkits-section section-padding fix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="toolkit-content">
+                        <h6 class="wow fadeInUp">
+                            <img src="assets/img/star.png" alt="img"> Expert Engineering
+                        </h6>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                            Unleash The Power <br>
+                            <span>of Artificial <b>Intelligence</b></span>
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".5s">
+                            Unleash the power of Artificial Intelligence with our revolutionary algorithms, designed for
+                            both automated and manual trading. Whether you're a beginner or a seasoned expert, our
+                            AI-driven tools empower you to thrive in any financial market. Trusted by over 66,000
+                            traders, we provide everything you need to achieve lasting success as an investor.
+                        </p>
+                        <a href="checkout.html" class="theme-btn mt-4 wow fadeInUp" data-wow-delay=".7s">
+                            Start Trading <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="toolkit-image wow fadeInRight" data-wow-delay=".5s">
+                        <div class="toolkit-box">
+                            <img src="assets/img/about/03.jpg" alt="AI Trading">
+                            <!-- You can replace the image above with a video by using this instead:
+                            <video autoplay loop muted playsinline>
+                                <source src="assets/video/ai-demo.mp4" type="video/mp4">
+                            </video>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section Start -->
+    <section class="service-section fix section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6 class="wow fadeInUp">
+                    <img src="assets/img/star.png" alt="img">
+                    System Features
+                </h6>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                    KLASSIC KAPITAL SYSTEM <br>
+                    <span>Features & <b>Capabilities</b></span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="service-box-items">
+                        <div class="service-image">
+                            <img src="assets/img/service/01.jpg" alt="Real-Time Trade Execution">
+                        </div>
+                        <div class="service-content">
+                            <div class="icon mb-3">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <h3>
+                                Real-Time Trade
+                                Execution
+                            </h3>
+                            <p>
+                                Enter trades with precision and speed using automated signals. The system marks Entry,
+                                SL, and TP levels clearly on your chart for instant action.
+                            </p>
+                            <a href="service.html" class="link-btn">more details <i
+                                    class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="service-box-items">
+                        <div class="service-image">
+                            <img src="assets/img/service/02.jpg" alt="Smart Risk Control">
+                        </div>
+                        <div class="service-content">
+                            <div class="icon mb-3">
+                                <i class="fa-solid fa-shield-alt"></i>
+                            </div>
+                            <h3>
+                                Smart Risk
+                                Control
+                            </h3>
+                            <p>
+                                Predefined stop loss and take profit logic to protect your capital. SL and TP zones are
+                                highlighted with visual clarity for complete confidence.
+                            </p>
+                            <a href="service.html" class="link-btn">more details <i
+                                    class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="service-box-items">
+                        <div class="service-image">
+                            <img src="assets/img/service/03.jpg" alt="Multi-Timeframe Analysis">
+                        </div>
+                        <div class="service-content">
+                            <div class="icon mb-3">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <h3>
+                                Multi-Timeframe
+                                Analysis
+                            </h3>
+                            <p>
+                                Align trades across multiple timeframes for higher probability setups. Uses Heikin Ashi
+                                candles and trend pressure indicators for optimal entry timing.
+                            </p>
+                            <a href="service.html" class="link-btn">more details <i
+                                    class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="service-box-items">
+                        <div class="service-image">
+                            <img src="assets/img/service/04.jpg" alt="Institutional Grade Signals">
+                        </div>
+                        <div class="service-content">
+                            <div class="icon mb-3">
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <h3>
+                                Institutional Grade
+                                Signals
+                            </h3>
+                            <p>
+                                Signals based on volatility, trend pressure, and market state. The KLASSIC KAPITAL
+                                STRATEGY panel shows market state, volatility, and session info in real-time.
+                            </p>
+                            <a href="service.html" class="link-btn">more details <i
+                                    class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay="1s">
+                    <div class="service-box-items mb-0">
+                        <div class="service-image">
+                            <img src="assets/img/service/01.jpg" alt="TradingView Integration">
+                        </div>
+                        <div class="service-content">
+                            <div class="icon mb-3">
+                                <i class="fa-solid fa-mobile-alt"></i>
+                            </div>
+                            <h3>
+                                TradingView
+                                Integration
+                            </h3>
+                            <p>
+                                Works seamlessly on mobile and desktop TradingView platforms. Trade anywhere, anytime
+                                with full system functionality on all your devices.
+                            </p>
+                            <a href="service.html" class="link-btn">more details <i
+                                    class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay="1.2s">
+                    <div class="service-box-items mb-0">
+                        <div class="service-image">
+                            <img src="assets/img/service/02.jpg" alt="Get Started Today">
+                        </div>
+                        <div class="service-content">
+                            <div class="icon mb-3">
+                                <i class="fa-solid fa-rocket"></i>
+                            </div>
+                            <h3>
+                                Ready to Start
+                                Trading?
+                            </h3>
+                            <p>
+                                One-time payment of $300 gives you lifetime access. No monthly fees. Setup support
+                                included. Start trading immediately after purchase.
+                            </p>
+                            <a href="checkout.html" class="theme-btn">Get Started Now <i
+                                    class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section Start -->
+    <section class="project-section fix section-padding section-bg bg-cover"
+        style="background-image: url('assets/img/project/line-shape.png');">
+        <div class="color-bg">
+            <img src="assets/img/project/color-bg.png" alt="img">
+        </div>
+        <div class="project-wrapper">
+            <h2 class="project-title text-center wow fadeInUp" data-wow-delay=".3s">
+                Success <br> <img src="assets/img/has.png" alt="img"> <span>Stories</span>
+            </h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="project-image">
+                        <img src="assets/img/project/01.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="project-content">
+                        <span>December 2025</span>
+                        <h3>
+                            <a href="project-details.html">
+                                High-Frequency <br>
+                                Scalping Bot
+                            </a>
+                        </h3>
+                        <p>
+                            Advanced scalping bot achieving 85% win rate on EUR/USD pair with intelligent entry/exit
+                            points and rapid trade execution for maximum profitability.
+                        </p>
+                        <a href="project-details.html" class="theme-btn">explore now <i
+                                class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="project-content">
+                        <span>November 2025</span>
+                        <h3>
+                            <a href="project-details.html">
+                                Trend Following <br>
+                                Strategy Bot
+                            </a>
+                        </h3>
+                        <p>
+                            Multi-timeframe trend analysis bot with adaptive indicators delivering consistent returns
+                            across major currency pairs with minimal drawdown.
+                        </p>
+                        <a href="project-details.html" class="theme-btn">explore now <i
+                                class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="project-image style-2">
+                        <img src="assets/img/project/02.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="project-image">
+                        <img src="assets/img/project/03.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="project-content">
+                        <span>October 2025</span>
+                        <h3>
+                            <a href="project-details.html">
+                                Smart Breakout <br>
+                                Trading Bot
+                            </a>
+                        </h3>
+                        <p>
+                            AI-powered breakout detection system that identifies key support/resistance levels and
+                            executes precision trades during high-volatility market conditions.
+                        </p>
+                        <a href="project-details.html" class="theme-btn">explore now <i
+                                class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faq Section Start -->
+    <section class="faq-section fix section-padding">
+        <div class="color-bg">
+            <img src="assets/img/faq/color-bg.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="faq-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="faq-image-items">
+                            <div class="faq-image wow fadeInUp" data-wow-delay=".3s">
+                                <img src="assets/img/faq/01.jpg" alt="img">
+                            </div>
+                            <div class="faq-image wow fadeInUp" data-wow-delay=".5s">
+                                <img src="assets/img/faq/02.jpg" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq-content">
+                            <div class="section-title">
+                                <h6>
+                                    <img src="assets/img/star.png" alt="img"> key feature
+                                </h6>
+                                <h2>
+                                    Advanced MT5 Trading Bot
+                                    <span><b>Features</b></span>
+                                </h2>
+                            </div>
+                            <div class="faq-accordion">
+                                <div class="accordion" id="accordion">
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".2s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false"
+                                                aria-controls="faq2">
+                                                How does automated MT5 trading work?
+                                            </button>
+                                        </h5>
+                                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Our MT5 trading bot connects directly to your MetaTrader 5 platform and
+                                                executes trades automatically based on pre-configured strategies. It
+                                                analyzes market conditions 24/7, identifies trading opportunities, and
+                                                executes orders with precision timing without human intervention.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item  wow fadeInUp" data-wow-delay=".4s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                                What currency pairs are supported?
+                                            </button>
+                                        </h5>
+                                        <div id="faq1" class="accordion-collapse show" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Our trading bot supports all major forex pairs including EUR/USD,
+                                                GBP/USD, USD/JPY, AUD/USD, and over 30 additional pairs. You can
+                                                customize which pairs to trade based on your strategy and risk
+                                                preferences through the bot's configuration panel.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".6s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
+                                                aria-controls="faq3">
+                                                How does risk management work?
+                                            </button>
+                                        </h5>
+                                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                The bot includes advanced risk management features including
+                                                customizable stop-loss and take-profit levels, maximum drawdown limits,
+                                                daily loss limits, and position sizing based on account balance. All
+                                                risk parameters can be adjusted to match your trading style and risk
+                                                tolerance.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paralax Section Start -->
+    <div class="paralax-section fix section-padding pt-0">
+        <div class="paralax-image">
+            <img src="assets/img/paralax-bg.jpg" alt="img">
+        </div>
+    </div>
+
+    <!-- Pricing Section Start -->
+    <section class="pricing-section fix section-padding pt-0">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title ml-200">
+                    <h6 class="wow fadeInUp">
+                        <img src="assets/img/star.png" alt="img"> Get Access To The Elite Signals Toolkit
+                    </h6>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                        Explore our premium <br>
+                        <span> pricing <b>options</b></span>
+                    </h2>
+                    <p class="wow fadeInUp" data-wow-delay=".5s">
+                        Transparent, straightforward, and absolutely no hidden fees.
+                    </p>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".3s">
+                        <a href="#Annual" data-bs-toggle="tab" class="nav-link">
+                            Annual
+                        </a>
+                    </li>
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".5s">
+                        <a href="#Monthly" data-bs-toggle="tab" class="nav-link active">
+                            Monthly
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div id="Annual" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
+                            <div class="pricing-box-items">
+                                <div class="icon">
+                                    <img src="assets/img/icon/02.svg" alt="img">
+                                </div>
+                                <div class="pricing-header">
+                                    <h3>Standard</h3>
+                                    <p>Ideal for personal project</p>
+                                    <h2>$25</h2>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Access AI tool</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Exclusive feature</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>24/7 support</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Discord access</span>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="pricing.html" class="theme-btn">
+                                        Start Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
+                            <div class="pricing-box-items">
+                                <div class="icon">
+                                    <img src="assets/img/icon/02.svg" alt="img">
+                                </div>
+                                <div class="pricing-header">
+                                    <h3>Professional</h3>
+                                    <p>Ideal for personal project</p>
+                                    <h2>$29</h2>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Access AI tool</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Exclusive feature</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>24/7 support</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Discord access</span>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="pricing.html" class="theme-btn">
+                                        Start Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
+                            <div class="pricing-box-items">
+                                <div class="icon">
+                                    <img src="assets/img/icon/02.svg" alt="img">
+                                </div>
+                                <div class="pricing-header">
+                                    <h3>Business</h3>
+                                    <p>Ideal for personal project</p>
+                                    <h2>$49</h2>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Access AI tool</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Exclusive feature</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>24/7 support</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Discord access</span>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="pricing.html" class="theme-btn">
+                                        Start Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
+                            <div class="pricing-box-items">
+                                <div class="icon">
+                                    <img src="assets/img/icon/02.svg" alt="img">
+                                </div>
+                                <div class="pricing-header">
+                                    <h3>Enterprise</h3>
+                                    <p>Ideal for personal project</p>
+                                    <h2>$54</h2>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Access AI tool</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Exclusive feature</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>24/7 support</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Discord access</span>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="pricing.html" class="theme-btn">
+                                        Start Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Monthly" class="tab-pane fade show active">
+                    <div class="row">
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="pricing-box-items">
+                                <div class="icon">
+                                    <img src="assets/img/icon/02.svg" alt="img">
+                                </div>
+                                <div class="pricing-header">
+                                    <h3>Standard</h3>
+                                    <p>Perfect for beginners</p>
+                                    <h2>$49</h2>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>3 Basic Strategies</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>5 Currency Pairs</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Email Support</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Monthly Updates</span>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="pricing.html" class="theme-btn">
+                                        Start Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="pricing-box-items">
+                                <div class="icon">
+                                    <img src="assets/img/icon/02.svg" alt="img">
+                                </div>
+                                <div class="pricing-header">
+                                    <h3>Professional</h3>
+                                    <p>For active traders</p>
+                                    <h2>$99</h2>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>10 Advanced Strategies</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>20+ Currency Pairs</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Priority Support</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Weekly Updates</span>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="pricing.html" class="theme-btn">
+                                        Start Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="pricing-box-items">
+                                <div class="icon">
+                                    <img src="assets/img/icon/02.svg" alt="img">
+                                </div>
+                                <div class="pricing-header">
+                                    <h3>Business</h3>
+                                    <p>For serious traders</p>
+                                    <h2>$199</h2>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>20+ Premium Strategies</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>All Currency Pairs</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>24/7 VIP Support</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Custom Strategy Builder</span>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="pricing.html" class="theme-btn">
+                                        Start Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="pricing-box-items">
+                                <div class="icon">
+                                    <img src="assets/img/icon/02.svg" alt="img">
+                                </div>
+                                <div class="pricing-header">
+                                    <h3>Enterprise</h3>
+                                    <p>For professional teams</p>
+                                    <h2>$399</h2>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Unlimited Strategies</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>All Markets & Pairs</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>Dedicated Account Manager</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12"
+                                            viewBox="0 0 20 12" fill="none">
+                                            <path
+                                                d="M10.3553 12C10.0508 12 9.84772 11.8857 9.64467 11.6571L5.38071 6.85714C4.97462 6.4 4.97462 5.71429 5.38071 5.25714C5.7868 4.8 6.39594 4.8 6.80203 5.25714L10.3553 9.25714L18.2741 0.342857C18.6802 -0.114286 19.2893 -0.114286 19.6954 0.342857C20.1015 0.8 20.1015 1.48571 19.6954 1.94286L11.066 11.6571C10.9645 11.8857 10.6599 12 10.3553 12Z"
+                                                fill="#CDCDCD" />
+                                            <path
+                                                d="M5.27919 12C4.97462 12 4.77157 11.8857 4.56853 11.6571L0.304569 6.85714C-0.101523 6.4 -0.101523 5.71429 0.304569 5.25714C0.71066 4.8 1.3198 4.8 1.72589 5.25714L5.98985 10.0571C6.39594 10.5143 6.39594 11.2 5.98985 11.6571C5.88833 11.8857 5.58376 12 5.27919 12ZM10.6599 6.05714C10.3553 6.05714 10.1523 5.94286 9.94924 5.71429C9.54315 5.25714 9.54315 4.57143 9.94924 4.11429L13.198 0.342857C13.6041 -0.114286 14.2132 -0.114286 14.6193 0.342857C15.0254 0.8 15.0254 1.48571 14.6193 1.94286L11.3706 5.71429C11.1675 5.94286 10.9645 6.05714 10.6599 6.05714Z"
+                                                fill="#CDCDCD" />
+                                        </svg>
+                                        <span>AI Custom Bot Development</span>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="pricing.html" class="theme-btn">
+                                        Start Now <i class="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Section Start -->
+    <section class="message-section fix section-bg section-padding">
+        <div class="bg-shape">
+            <img src="assets/img/about/bg-shape.png" alt="shape-img">
+        </div>
+        <div class="container">
+            <div class="message-items">
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                    Have any query
+                    <span> send us <b>message</b></span>
+                </h2>
+                <div class="circle-bg wow fadeInUp" data-wow-delay=".3s">
+                    <img src="assets/img/circle-bg.png" alt="img">
+                </div>
+                <div class="lets-talk-items wow fadeInUp" data-wow-delay=".5s">
+                    <a href="contact.html" class="lets-circle">
+                        <i class="fa-sharp fa-regular fa-arrow-up-right"></i> <br>
+                        Let’s talk
+                    </a>
+                    <p>
+                        Ready to automate your forex trading? Contact us today to discuss your MT5 trading bot
+                        requirements and discover how our automated solutions can enhance your trading performance with
+                        consistent, data-driven results.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="brand-section section-padding pb-0">
+            <div class="container">
+                <div class="swiper brand-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/01.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/02.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/03.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/04.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/05.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer class="footer-section footer-bg">
+        <div class="container">
+            <div class="footer-widgets-wrapper">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="single-footer-widget">
+                            <div class="footer-content">
+                                <h3 class="mb-3">
+                                    Subscribe our
+                                    newsletter
+                                </h3>
+                                <p>Join us today, get update everyday</p>
+                                <div class="footer-input">
+                                    <input type="email" id="email" placeholder="Enter email...">
+                                    <button class="newsletter-btn" type="submit">
+                                        <img src="assets/img/circle-check.png" alt="img">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <ul class="list-items">
+                                <li>
+                                    <a href="about.html">
+                                        About us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="pricing.html">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="checkout.html">
+                                        Checkout
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Legal & Contact</h3>
+                            </div>
+                            <ul class="list-items">
+                                <li>
+                                    <a href="terms.html">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="privacy.html">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="disclaimer.html">
+                                        Disclaimer
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <i class="fa-solid fa-envelope me-2"></i>
+                                    <a href="mailto:support@klassickapital.com">
+                                        support@klassickapital.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone me-2"></i>
+                                    <a href="tel:+2347032285613">
+                                        +234 703 228 5613
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-3 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Instagram</h3>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6 col-sm-4 col-4">
+                                    <div class="footer-thumb">
+                                        <img src="assets/img/footer/gallery-1.jpg" alt="img">
+                                        <a href="index.html" class="icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-4 col-4">
+                                    <div class="footer-thumb">
+                                        <img src="assets/img/footer/gallery-2.jpg" alt="img">
+                                        <a href="index.html" class="icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-4 col-4">
+                                    <div class="footer-thumb">
+                                        <img src="assets/img/footer/gallery-3.jpg" alt="img">
+                                        <a href="index.html" class="icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-4 col-4">
+                                    <div class="footer-thumb">
+                                        <img src="assets/img/footer/gallery-4.jpg" alt="img">
+                                        <a href="index.html" class="icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-wrapper">
+                    <div class="logo-img wow fadeInUp" data-wow-delay=".3s">
+                        <a href="index.html">
+                            <img src="assets/img/logo/white-logo.svg" alt="img">
+                        </a>
+                    </div>
+                    <p class="wow fadeInUp" data-wow-delay=".5s">KLASSICKAPITAL © 2025. All Rights Reserved.</p>
+                    <div class="social-icon wow fadeInUp" data-wow-delay=".7s">
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--<< All JS Plugins >>-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
